@@ -1,0 +1,63 @@
+// -- External Components --
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-svg-core/styles.css";
+
+// Page Defaults
+body {
+  font-weight: 300;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+}
+
+// -- Typography --
+.text-big-muted {
+  @extend .text-muted;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+header {
+  font-weight: 400;
+}
+
+.parallax {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.paralsec {
+  background-image: url("/cafe-people.jpeg");
+}
+
+.main {
+  position: relative;
+  top: 5vh;
+}
+
+.btn {
+  padding: 1.5rem;
+}
+
+.title {
+  color: blue;
+}
+
+.inputval {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #296ed3;
+  border: 1px solid #9cbbe9;
+  border-radius: 0.5rem;
+  width: 40%;
+}
+
+.inputval:focus-visible {
+  border: 1px solid #296ed3 !important;  
+}
+
+.point {
+  cursor: pointer;
+}
